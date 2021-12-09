@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header section starts here -->
+    <header>
+
+        <div><img id="menu-bar" title="Menu" src="Images/Menu.png" alt=""></div>
+        <a href="#" class="logo" title="The World"><span>Le</span>Monte</a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#book">Book</a>
+            <a href="#packages">Packages</a>
+            <a href="#services">Servieces</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#review">Review</a>
+        </nav>
+
+        <div class="icons">
+            <i class="search" title="Search"><img id="search-btn" src="Images/Search.png" alt="Search button"></i>
+            <i class="login" title="Log In"><img id="login-btn" src="Images/User.png" alt="User"></i>
+        </div>
+
+        <from class="search-bar-container active">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar"><img class="search" src="Images/Search.png" alt="Search icon"></label>
+            <i><img class="close active" src="Images/Close.png" id="close" alt=""></i>
+        </from>
+    </header>
+    <!-- Header section ends here-->
+
+    <!-- Login form container-->
+
+    <div class="login-form-container active">
+
+        <i><img id="form-close" src="Images/Close.png" alt=""></i>
+
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="Enter your email">
+            <input type="password" class="box" placeholder="Enter your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forgot password? <a href="#">Click here</a></p>
+            <p>don't have an account? <a href="#">register now</a></p>
+        </form>
+    </div>
+
+    <!-- Login form container ends here-->
+
+    <!-- Home section starts here-->
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Where do you want to go</h3>
+            <p>Trips , Experiences, and Places. All in on Service</p>
+            <a href="#" class="btn">Discover More</a>
+        </div>
+
+        <div class="controls">
+            <span class="img-btn active" data-src="Images/Image1.jpg"></span>
+            <span class="img-btn" data-src="Images/Image2.jpg"></span>
+            <span class="img-btn" data-src="Images/Image3.jpg"></span>
+            <span class="img-btn" data-src="Images/Image4.jpg"></span>
+            <span class="img-btn" data-src="Images/Image5.jpg"></span>
+        </div>
+
+        <div class="img-container">
+            <img src="Images/Image1.jpg" id="img-slider" alt="">
+        </div>
+    </section>
+
+    <!-- Home section ends here-->
+
+
+    <!-- Booking section starts here -->
+
+    <section id="book" class="book">
+        <h1>Book Now</h1>
+        <div class="form-filling">
+            <div><img src="Images/Booking.jpg" alt=""></div>
+            <form action="">
+                <h3>Where to</h3>
+                <input type="text" class="country" placeholder="Enter the country">
+                <h3>How many</h3>
+                <input type="number" class="num-of-people">
+                <h3>Arrivals</h3>
+                <input type="datetime-local" class="date-arrival">
+                <h3>Leaving</h3>
+                <input type="datetime-local" class="date-leaving">
+                <a href="#" class="btn">Book Now</a>
+            </form>
+        </div>
+    </section>
+
+    <!-- Booking section ends here -->
+
+
+    <!-- Packages section starts here  -->
+
+    <section class="packages" id="packages">
+        <h1>Packages</h1>
+        <div class="locations">
+            <div>
+                <img src="Images/LA.jpg" alt="">
+                <h3><img src="Images/Location.png" alt=""> Los Angeles</h3>
+                <p>Los Angeles is one of the world's most famous cities. The city is internationally known for being the
+                    home of the rich and famous, Hollywood</p>
+                <h4>$900.00</h4>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+            <div>
+                <img src="Images/London.jpg" alt="">
+                <h3><img src="Images/Location.png" alt=""> London</h3>
+                <p>Apart from Big Ben and Buckingham Palace, London is famous for its status as one of the world's
+                    greatest cosmopolitan cities</p>
+                <h4>$800.00</h4>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+            <div>
+                <img src="Images/Scotland.jpg" alt="">
+                <h3><img src="Images/Location.png" alt=""> Scotland</h3>
+                <p>Scotland is known for its cities Edinburgh and Glasgow, as well as its highlands, mountains, and
+                    30,000 lochs.</p>
+                <h4>$500.00</h4>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+        </div>
+        <div class="locations">
+            <div>
+                <img src="Images/Tokyo.jpg" alt="">
+                <h3><img src="Images/Location.png" alt=""> Tokyo</h3>
+                <p>Tokyo is famous for Anime, electronics, manga, and video games</p>
+                <h4>$900.00</h4>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+            <div>
+                <img src="Images/Venice.jpg" alt="">
+                <h3><img src="Images/Location.png" alt=""> Venice</h3>
+                <p>Venice has been known as "La Dominante", "La Serenissima", "Queen of the Adriatic", "City of Water",
+                    "City of Masks", "City of Bridges", "The Floating City", and "City of Canals". ...</p>
+                <h4>$1000.00</h4>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+            <div>
+                <img src="Images/India.jpg" alt="">
+                <h3><img src="Images/Location.png" alt=""> India</h3>
+                <p>India is known for many, many different aspects – its food, culture, its massive population</p>
+                <h4>$700.00</h4>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Packages section ends here  -->
+
+    <!-- Services section starts here -->
+
+    <section id="services" class="services">
+        <h2>Services</h2>
+        <div class="sections">
+            <div>
+                <img src="Images/Hotel.png" alt="">
+                <h1>Affordable hotels</h1>
+                <p>A budget hotel suite is usually only spacious enough for one, maybe two people. ... Luxury hotel
+                    suites usually offer bigger beds</p>
+            </div>
+            <div>
+                <img src="Images/Food.png" alt="">
+                <h1>Food and Drinks</h1>
+                <p>Food of the agency is provided by big company of farmers, and also drink are fresh and delicious</p>
+            </div>
+            <div>
+                <img src="Images/Safety.png" alt="">
+                <h1>safety guide</h1>
+                <p>A safe and healthy workplace not only protects workers from injury and illness, it can also lower
+                    injury/illness costs</p>
+            </div>
+        </div>
+        <div class="sections">
+            <div>
+                <img src="Images/World.png" alt="">
+                <h1>around the world</h1>
+                <p>Travelling around the world with this agency is affordable, easy, faster and beneficial</p>
+            </div>
+            <div>
+                <img src="Images/Airplane.png" alt="">
+                <h1>faster travel</h1>
+                <p>Fast travel won't be available to you when you start Chapter 2, and has to be unlocked by progressing
+                    through the story</p>
+            </div>
+            <div>
+                <img src="Images/Adventures.png" alt="">
+                <h1>adventures</h1>
+                <p>you should be ready to see adventures when travellin gwith our agency, it is recommended</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Services section ends here -->
+
+
+    <!-- Gallery section starts here -->
+
+    <section id="gallery" class="gallery">
+        <h1>Gallery</h1>
+        <div class="main-div">
+            <div class="container">
+                <div>
+                    <h4>Amazing castles</h4>
+                    <p>very beautiful castles with the age of more than 100 years</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+            </div>
+            <div class="container">
+                <div>
+                    <h4> Big bridges</h4>
+                    <p>famous bridges of London which is well known</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+            </div>
+            <div class="container">
+                <div>
+                    <h4>Amazing mountains</h4>
+                    <p>big and large mountains in the snow</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+            </div>
+            <div class="container">
+                <div>
+                    <h4>Amazing cities</h4>
+                    <p>Cities of Uzbekistan looking from above at night is very gorgeous</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+            </div>
+        </div>
+        <div class="main-div main-div2">
+            <div class="container">
+                <div>
+                    <h4>Amazing buildings</h4>
+                    <p>Tall buildings that look very big from the sky</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+            </div>
+            <div class="container">
+                <div>
+                    <h4>Amazing trees</h4>
+                    <p>trees grown everywhere long and big</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+            </div>
+            <div class="container">
+                <div>
+                    <h4>Amazing flowers</h4>
+                    <p>Beautiful flowers and all types of flowers</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+            </div>
+            <div class="container">
+                <div>
+                    <h4>Amazing valleys</h4>
+                    <p>beautiful valley covered with mountains look very amazing</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Gallery section ends here -->
+
+    <!-- Review section starts here -->
+
+    <section class="review" id="review">
+        <h1>Review</h1>
+        <div class="reviews">
+            <div class="scroll">
+                <div>
+                    <img src="Images/User1.jpg" alt="">
+                    <h2>Scott</h2>
+                    <p>best service</p>
+                    <img src="Images/stars.jpg" alt="">
+                </div>
+                <div>
+                    <img src="Images/User2.jpg" alt="">
+                    <h2>Allison</h2>
+                    <p>easy to contact</p>
+                    <img src="Images/stars.jpg" alt="">
+                </div>
+                <div>
+                    <img src="Images/User3.jpg" alt="">
+                    <h2>Stiles</h2>
+                    <p>affordable</p>
+                    <img src="Images/stars.jpg" alt="">
+                </div>
+                <div>
+                    <img src="Images/User4.jpg.crdownload" alt="">
+                    <h2>Lydia</h2>
+                    <p>Trustful</p>
+                    <img src="Images/stars.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Review section ends here -->
+
+    <!-- Footer secrion starts here -->
+
+    <footer>
+        <div class="footer">
+            <div class="about">
+                <h1>About us</h1>
+                <p>we can say about us that we are one of the companies that offers good and affordable travelling plans
+                    for anybody wants to travel around the world</p>
+            </div>
+            <div class="locations">
+                <h1>Branch locations</h1>
+                <p>USA</p>
+                <p>UK</p>
+                <p>Canada</p>
+                <p>France</p>
+            </div>
+            <div class="links">
+                <h1>Quick links</h1>
+                <a href="#home">Home</a>
+                <a href="#book">book</a>
+                <a href="#packages">Packages</a>
+                <a href="#services">services</a>
+                <a href="#gallery">gallery</a>
+                <a href="#review">review</a>
+            </div>
+            <div class="follow">
+                <h1>Follow us</h1>
+                <a href="#">Instagram</a>
+                <a href="#">telegram</a>
+                <a href="#">skype</a>
+                <a href="#">Facebook</a>
+                <a href="#">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Footer secrion ends here -->
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
